@@ -16,6 +16,10 @@ print(driver.title)
 search = driver.find_element_by_name("s")
 search.send_keys("test")
 search.send_keys(Keys.RETURN)
+link = driver.find_element_by_link_text("Python Programming")
+link.click()
+
+
 
 
 try:
